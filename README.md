@@ -37,6 +37,20 @@ Technical Implementation
 
 3. **Visual Weather Representation:** Weather conditions are visually represented with icons, making it easy for users to understand the current climate.
 
+Default Page:
+   By default it will fetch the user brower location
+    
+![image](https://github.com/dheerajpatnala/weather_app/assets/159060960/0e66bfc2-1086-47c5-af9d-31d039c57582)
+
+Search Location Page:
+   If user searches for any location we will get the data from api which is configured
+   
+![image](https://github.com/dheerajpatnala/weather_app/assets/159060960/7a875d70-b684-4664-b013-cd8d8f3a08ac)
+
+If City Not Found:
+   If user mispelled any city name we will show an error message
+   
+![image](https://github.com/dheerajpatnala/weather_app/assets/159060960/0f749d93-1627-4bdd-add4-1dd336ac1736)
 
 
  Conclusion
@@ -48,15 +62,19 @@ The React Weather App is a user-friendly and informative tool for checking the w
 To run locally:
 
 Clone repository:
+
 git clone https://github.com/dheerajpatnala/weather_app.git
 
 Move to folder:
+
 cd weather_app
 
 Install dependencies:
+
 npm install
 
 Run application:
+
 npm run dev
 
 Navigate to http://localhost:5173 The application will automatically reload if you change any of the source files.
